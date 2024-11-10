@@ -1,0 +1,114 @@
+.SpecialGrid-component {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.SpecialGrid-component-grid {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 30px ;
+    padding-top: 15px;
+    box-sizing: border-box;
+    border-radius: 18px;
+    background-color: white;
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+.SpecialGrid-component-footer {
+    width: 20vw;
+    background-color: white;
+    display: flex;
+    align-self: flex-end;
+    justify-content:end;
+    align-items: center;
+    margin-bottom: 1vh;
+    border-radius: 8px;
+}   
+
+.SpecialGrid-component-footer div {
+    display: flex;
+    align-items: center;
+    height: 6vh;
+}
+
+.SpecialGrid-component-footer button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+    height: 4vh;
+    width: 25px;
+    border-radius: 8px;
+}
+
+.SpecialGrid-component-footer button:hover {
+    background-color:  rgba(231, 230, 242, 1);    
+}
+
+.SpecialGrid-component-grid-checkbox {
+    margin-left: 15px;
+    border-radius: 4px;
+    width: 15px;
+    height: 15px;
+    border: 2px solid #73779180;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.SpecialGrid-component-grid-checkbox:hover {
+    border: 2px solid rgba(115, 119, 145, 1);
+} 
+
+
+
+.SpecialGrid-grid-row-header {
+    display: flex;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.4);
+    padding: 1vw 3vw;
+    padding-bottom: 2vh;
+    margin-bottom: 1vh;
+    height: 5vh
+}
+
+.SpecialGrid-grid-row {
+    display: flex;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    align-items: center;
+    transition: 0.1s;
+    padding: 0 3vw;
+}
+
+
+.SpecialGrid-grid-row:hover {
+    background: rgba(247, 249, 251, 1);
+}
+
+.SpecialGrid-grid-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.SpecialGrid-grid-cell {
+    font-weight: bold;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+ height: 2vh
+}
